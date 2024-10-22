@@ -1,12 +1,10 @@
 package org.example;
 
 import lombok.Getter;
-import lombok.NonNull;
 import lombok.Setter;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class MorseCode implements MorseTranslator {
     private final Node root;
